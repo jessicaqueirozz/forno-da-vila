@@ -65,7 +65,7 @@ form.addEventListener("submit", function (evento) {
 
   // mensagem: pelo menos 10 caracteres
   if (campoMensagem.value.trim().length < 10) {
-    mostrarErro(campoMensagem, "erro-mensagem", "Escreva seu pedido de pizza ...");
+    mostrarErro(campoMensagem, "erro-mensagem", "Escreva seu pedido com pelo menos 10 caracteres.");
     valido = false;
   } else {
     mostrarErro(campoMensagem, "erro-mensagem", "");
